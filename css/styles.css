@@ -57,6 +57,7 @@ p {
   height: 72px;
   flex-shrink: 0;
   padding: 24px 156px;
+  ali
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 .logo {
@@ -73,6 +74,7 @@ p {
   padding-bottom: 1.5px;
   margin-right: 76px;
   margin-bottom: 25.5px;
+    padding: 24px 0;
 }
 .logo .accent {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -101,18 +103,20 @@ p {
   color: var(--OCEAN, #404bbf);
 }
 .contacts {
+  font-style: normal;
+}
+.contact-info {
   display: flex;
   gap: 40px;
-  font-style: normal;
   margin-left: auto;
 }
-
 .contact-info .contact-link {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .contact-info .contact-link:hover,
 .contact-info .contact-link:focus {
@@ -219,9 +223,9 @@ p {
 }
 .team-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
 }
-.team-list .team-item {
+.team-item {
   background-color: var(--WHITE, #fff);
   display: inline-flex;
   padding-bottom: 0px;
@@ -241,6 +245,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  margin-bottom: 32px;
 }
 .team-member-name {
   color: var(--NAVY-BLUE, #2e2f42);
