@@ -60,11 +60,6 @@ p {
   padding: 24px 156px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
-.page-header-container .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 .page-header .container {
   display: flex;
 }
