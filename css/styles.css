@@ -291,7 +291,6 @@ p {
   margin-bottom: 72px;
 }
 .portfolio-list {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background-color: var(--WHITE, #fff);
   display: flex;
   flex-wrap: wrap;
