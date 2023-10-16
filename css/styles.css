@@ -57,7 +57,6 @@ p {
   height: 72px;
   flex-shrink: 0;
   padding: 24px 156px;
-  ali
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 .logo {
@@ -74,7 +73,7 @@ p {
   padding-bottom: 1.5px;
   margin-right: 76px;
   margin-bottom: 25.5px;
-    padding: 24px 0;
+  padding: 24px 0;
 }
 .logo .accent {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -116,7 +115,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-    padding: 24px 0;
+  padding: 24px 0;
 }
 .contact-info .contact-link:hover,
 .contact-info .contact-link:focus {
