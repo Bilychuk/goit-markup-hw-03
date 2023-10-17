@@ -49,12 +49,15 @@ p {
 .container {
   width: 1158px;
   padding: 0 15px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
 }
 
 /* Header */
 .page-header {
-  width: 1440px;
+  width: 100%;
   height: 72px;
   flex-shrink: 0;
   padding: 24px 156px;
