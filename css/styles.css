@@ -184,7 +184,6 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .benefits-text {
   color: var(--SLATE, #434455);
@@ -285,7 +284,6 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .portfolio-item-text {
   color: var(--SLATE, #434455);
