@@ -28,7 +28,6 @@ button:focus {
 img {
   display: block;
   max-width: 100%;
-  object-fit: cover;
 }
 h1,
 h2,
@@ -53,6 +52,7 @@ p {
 }
 .page-header .container {
   display: flex;
+  justify-content: space-between;
 }
 .page-nav {
   display: flex;
@@ -77,17 +77,17 @@ span {
   display: flex;
   gap: 40px;
 }
-.menu .link {
+.menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  display: block;
+  display: flex;
 }
-.menu .link:hover,
-.menu .link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: var(--OCEAN, #404bbf);
 }
 .contacts {
@@ -173,7 +173,7 @@ span {
 }
 .benefits-item {
   display: flex;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
